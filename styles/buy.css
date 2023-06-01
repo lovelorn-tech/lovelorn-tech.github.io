@@ -1,0 +1,74 @@
+@import "./global.css";
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.blocks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.block{
+    border: 0.125rem solid;
+    margin: 0 0.250rem;
+    padding: 0.625em;
+    text-align: center;
+}
+
+.block-1{
+    border-color: blue;
+}
+
+.block-2{
+    border-color: lightskyblue;
+}
+
+.block-3{
+    border-color: gold;
+}
+
+form > p{
+    margin: 0;
+}
+
+form > h2{
+    font-size: 1.5rem;
+}
+
+.select-form{
+    font-size: 0.9rem;
+}
+
+.form-info{
+    border-radius: 0.3125rem;
+    background-color: hsla(205, 80%, 88%, 1);
+    border: 0.125rem solid hsla(210, 60%, 80%, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 3.5rem;
+}
+
+.form-info > p{
+    line-height: 3.5rem;
+    font-size: 1rem;
+    padding: 0 2em;
+    text-align: center;
+    color: darkblue;
+}
+
+.btn-form{
+    background: yellowgreen;
+    border: none;
+    border-radius: 0.3125rem;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0;
+}

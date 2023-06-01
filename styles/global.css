@@ -1,0 +1,24 @@
+ul > li{
+    color: white;
+}
+
+ul > li > a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.buy-link > a{
+    color: greenyellow;
+}
+
+footer{
+    background-image: linear-gradient(to left, hsla(200, 70%, 26%, 1), hsla(185, 70%, 16%, 1));
+    height: 5rem;
+}
+
+footer > ul{
+    list-style-type: none;
+}
